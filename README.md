@@ -5,7 +5,7 @@
 
 * **Nama:** [Dinda Azzahra Lubis]
 * **NIM:** [2309020337]
-* **Link Demo (GitHub Pages):** https://[azzahralubisdinda-rgb].github.io/[[TugasPerkenalanAugmated]]
+* **Link Demo (GitHub Pages):** https://azzahralubisdinda-rgb.github.io/TugasPerkenalanAugmated/
 
 ---
 
