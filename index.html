@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tugas Praktikum - Perkenalan Diri</title>
+    <!-- Import A-Frame -->
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Ketentuan 2: Langit (a-sky) dan Lantai (a-plane) -->
+      <a-sky color="#6FA8DC"></a-sky>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="10" height="10" color="#3D85C6"></a-plane>
+
+      <!-- Ketentuan 3: Teks Nama dan NIM -->
+      <a-text 
+        value="DINDA AZZAHRA LUBIS - 2309020337" 
+        position="0 3 -3" 
+        align="center" 
+        color="#FFFFFF" 
+        width="6">
+      </a-text>
+
+      <!-- Ketentuan 1 & 4: Objek Primitif & Animasi -->
+      <!-- Objek 1: Box Beranimasi (Sesuai contoh) -->
+      <a-box 
+        position="-1.5 1 -3" 
+        rotation="0 45 0" 
+        color="#4CC3D9" 
+        animation="property: rotation; to: 0 360 0; loop: true; dur: 6000; easing: linear">
+      </a-box>
+
+      <!-- Objek 2: Sphere -->
+      <a-sphere 
+        position="0 1.25 -4" 
+        radius="0.75" 
+        color="#EF2D5E">
+      </a-sphere>
+
+      <!-- Objek 3: Cylinder -->
+      <a-cylinder 
+        position="1.5 0.75 -3" 
+        radius="0.5" 
+        height="1.5" 
+        color="#FFC65D">
+      </a-cylinder>
+
+      <!-- Objek Tambahan (Opsional): Torus -->
+      <a-torus 
+        position="0 0.5 -2" 
+        radius="0.4" 
+        radius-tubular="0.05" 
+        color="#7BC8A4">
+      </a-torus>
+    </a-scene>
+  </body>
+</html>
